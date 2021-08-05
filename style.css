@@ -1,0 +1,87 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 100vh;
+
+    background: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 100px;
+    padding: 80px 30px 20px;
+    background: white;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card h1 {
+    font-weight: 700;
+    font-size: 35px;
+
+    margin: 0 0 20px 0;
+
+    text-transform: uppercase;
+}
+
+.card div {
+    display: flex;
+}
+
+.btn {
+    max-width: 150px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter: opacity(0.7);
+}
+
+.m20-0 {
+    margin: 20px 0;
+}
+
+.form-control {
+    max-width: 450px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.white {
+    background: white;
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
+
+.list {
+    margin: 20px 0;
+    list-style: none;
+}
+
+.list-item {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
